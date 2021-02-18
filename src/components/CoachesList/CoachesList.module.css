@@ -1,0 +1,14 @@
+.container{
+    display: inline-block;
+    max-width:560px ;
+    min-width:320px ;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    color: var(--main-them-color);
+}
+
+.listItem {
+    border-bottom: 1px solid rgba(11, 87, 41, 0.1);
+
+}

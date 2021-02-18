@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    padding: 12px 17px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.centerAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userPictureWrapper {
+    --image-size: 48px;
+    color:white;
+    height: var(--image-size);
+    width: var(--image-size);
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: calc(var(--image-size)/3);
+}
+
+.userPicture {
+    object-fit: cover;
+    height: var(--image-size);
+    width: var(--image-size);
+}
+
+.userInfoWrapper{
+    text-align: left;
+    margin-left: 17px;
+}
+
+.fullName{
+    font-size: 10px;
+    letter-spacing: -0.1px;
+    line-height: 10px;
+}
+
+.level {
+    letter-spacing:-0.26px;
+    line-height: 17px;
+    opacity: 0.5;
+}
+
+.checkBox{
+
+    background-color:#DBE0E6;
+    border-radius:100%;
+    width:28px;
+    height:28px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.checkBox.checked{
+    background-color:#48C1C2;
+}
